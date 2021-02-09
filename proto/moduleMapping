@@ -1,0 +1,14 @@
+mapping {
+  module_name: "Cosmos"
+  proto_file_path: "./cosmos/*"
+}
+
+mapping {
+  module_name: "IBC"
+  proto_file_path: "./ibc/*"
+}
+
+mapping {
+  module_name: "Tendermint"
+  proto_file_path: "./tendermint/types/*.proto"
+}
