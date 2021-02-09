@@ -20,7 +20,7 @@ There are two options to use the swift proto files. Either you use the library, 
 ### Use the library
 ```swift
 dependencies: [
-    .package(name: "CosmosSwiftProto", url: "https://github.com/cosmosswift/swift-proto.git", branch: "main"),
+    .package(name: "swift-cosmos-proto", url: "https://github.com/cosmosswift/swift-cosmos-proto.git", .branch( "main")),
 ]
 ```
 

@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "cosmos-swift-proto",
+    name: "swift-cosmos-proto",
     platforms: [
         .macOS(.v10_15),
     ],
