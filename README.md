@@ -57,40 +57,11 @@ If you are using Xcode, then you should:
   
 
 # TODO
-- check how to define import location: needs to be in a known path
-```shell
-cd /pathToProjectDir/
-protoc -Iproto --swift_out=Sources proto/com/abc/protobuf/share.proto proto/com/abc/depart/detect.proto
-
---swift_opt=Visibility=Public
---swift_opt=FileNaming=PathToUnderscores
---swift_opt=ProtoPathModuleMappings="proto/moduleMapping"
-
-```
-
-
-
-```
-cat `find proto | grep .proto` | grep import | sort -u
-```
-```
-
-```
-- 
-
-
-  --
-
-
-https://github.com/apple/swift-protobuf/blob/main/Documentation/API.md
-https://github.com/apple/swift-protobuf/blob/main/Documentation/PLUGIN.md
-
 
 
 1. import proto files from various required locations
 2. do a diff between old and new files
 3. 
-
 
 -> set up a docker container that will clone relevant repos, compare proto files 
 
@@ -101,3 +72,8 @@ https://github.com/grpc/grpc-swift
 https://github.com/grpc/grpc-swift/blob/main/docs/tls.md
 ### Keepalive
 https://github.com/grpc/grpc-swift/blob/main/docs/keepalive.md
+
+### various links
+https://github.com/apple/swift-protobuf/blob/main/Documentation/API.md
+https://github.com/apple/swift-protobuf/blob/main/Documentation/PLUGIN.md
+
